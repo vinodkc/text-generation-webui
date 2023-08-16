@@ -21,7 +21,7 @@ def main():
         fn=getsentiments,
         inputs=Textbox(label="Case ID", placeholder="Case id"),
         outputs=[Textbox(label="Customer Sentiments"), Textbox(label="Score")],
-        title='Sentiment analysis').launch()
+        title='Sentiment analysis').launch(share=True)
 
 
 if __name__ == '__main__':
