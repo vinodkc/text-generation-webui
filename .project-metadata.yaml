@@ -8,8 +8,8 @@ prototype_version: 1.0
 date: "2023-04-22"
 
 runtimes:
-  - editor: PBJ Workbench
-    kernel: Python 3.10
+  - editor: Workbench
+    kernel: Python 3.9
     edition: Standard
 
 tasks:
