@@ -8,9 +8,9 @@ prototype_version: 1.0
 date: "2023-04-22"
 
 runtimes:
-  - editor: Workbench
+  - editor: PBJ Workbench
     kernel: Python 3.10
-    edition: Standard
+  Python 3.10
 
 tasks:
   - type: run_session
