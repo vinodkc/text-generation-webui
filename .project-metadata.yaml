@@ -38,11 +38,11 @@ tasks:
     short_summary: Run job to download pre-trained models.
   
   - type: start_application
-    name: CML LLM Chatbot
+    name: Text Gen UI
     subdomain: cmlllm
     script: setupscripts/4_app/server.py
-    short_summary: Start CML LLM Chatbot application
-    long_summary: This application requires an available GPU to run the LLM model. Startup may be delayed if autoscaling is being performed or fail if GPU cannot be scheduled on this workspace. Please contact your administrator for GPU scheduling.
+    short_summary: Start CML Text Gen UI
+    long_summary: Start CML Text Gen UI........
     cpu: 2
     memory: 16
     gpu: 1
