@@ -24,10 +24,10 @@ tasks:
   - type: create_job
     name: Download Models
     entity_label: download_data_and_models
-    script: setupscripts/2_job-download-models/download_models.py
+    script: download-model.py EleutherAI/gpt-j-6B --text-only
     arguments: None
     short_summary: Create job to download pre-trained models. 
-    long_summary: Create job to download open source pre-trained models required by the LLM Chatbot application. All models are downloaded to a local directory. 
+    long_summary: Create job to download open source pre-trained models. 
     cpu: 1
     memory: 4
     environment:
@@ -40,7 +40,7 @@ tasks:
   - type: start_application
     name: Text Gen UI
     subdomain: cmlllm
-    script: setupscripts/4_app/server.py
+    script: server.py
     short_summary: Start CML Text Gen UI
     long_summary: Start CML Text Gen UI........
     cpu: 2
