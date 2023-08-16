@@ -24,7 +24,7 @@ tasks:
   - type: create_job
     name: Download Models
     entity_label: download_data_and_models
-    script: download-model.py EleutherAI/gpt-j-6B --text-only
+    script: setupscripts/2_job-download-models/download_models.py
     arguments: None
     short_summary: Create job to download pre-trained models. 
     long_summary: Create job to download open source pre-trained models. 
